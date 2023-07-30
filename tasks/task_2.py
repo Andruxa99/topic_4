@@ -4,4 +4,5 @@ b: int = int(input("Введите число b: "))
 a, b = b, a
 
 print("Значения после перестановки:")
-print("a =", a, "\n" "b =", b)
+print("a =", a, "\nb =", b)
+# print("a = " + str(a), "b = " + str(b), sep='\n')

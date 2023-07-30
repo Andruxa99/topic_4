@@ -1,7 +1,7 @@
-num_chicken = int(input("Введите кол-во курочек: "))
-num_cows = int(input("Введите кол-во коров: "))
-num_pigs = int(input("Введите кол-во свиней: "))
+num_chicken = int(input("Введите количество курочек: "))
+num_cows = int(input("Введите количество коров: "))
+num_pigs = int(input("Введите количество свиней: "))
 
-total_legs: int = (num_chicken * 2) + (num_cows * 4) + (num_pigs * 4)
+total_legs: int = (num_chicken * 2) + (num_cows + num_pigs) * 4
 
-print("Общие кол-во ног на ферме: ", total_legs)
+print("Общие количество ног на ферме:", total_legs)
