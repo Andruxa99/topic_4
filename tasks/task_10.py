@@ -1,8 +1,8 @@
 number = int(input("Введите положительное трехзначное число: "))
 
-hundreds: int = number % 10
+hundreds: int = number % 1000 // 100
 tens: int = number % 100 // 10
-units: int = number % 100
+units: int = number % 10
 
 sum_digits: int = hundreds + tens + units
 

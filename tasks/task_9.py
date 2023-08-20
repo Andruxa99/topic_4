@@ -1,5 +1,4 @@
 num_switches: int = int(input("Введите количество переключателей: "))
 
-combinations: int = (num_switches - 1) ** 3
-
+combinations: int = 2 ** num_switches
 print("Количество возможных комбинаций:", combinations)
